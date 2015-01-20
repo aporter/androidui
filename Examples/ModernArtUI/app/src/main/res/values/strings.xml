@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Modern Art UI</string>
+    <string name="indigo_rectangle">indigo rectangle</string>
+    <string name="white_rectangle">white rectangle</string>
+    <string name="pink_rectangle">pink rectangle</string>
+    <string name="mondrian_more_info">Inspired by the works of artists such as\n
+        Piet Mondrian and Ben Nicholson.\n\n Click below to learn more!</string>
+    <string name="not_now_string">Not Now</string>
+    <string name="visit_moma_string">Visit MOMA</string>
+    <string name="more_information_string">More Information</string>
+
+</resources>

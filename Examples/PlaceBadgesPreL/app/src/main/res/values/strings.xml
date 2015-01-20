@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PlaceBadges-PreL</string>
+    <string name="footer_text">Get New Place</string>
+    <string name="delete">Delete All</string>
+    <string name="delete_all_dialog_string">Delete all PlaceBadges?</string>
+    <string name="detailed_credits_string">iphwin\nhttps://www.flickr.com/photos/\n36692613@N00/5418579238/\nvia http://compfight.com"</string>
+    <string name="credits_string">Photo Credits</string>
+    <string name="title_activity_place_view_detail">PlaceBadges Pre-L</string>
+    <string name="flag_image_string">Flag Image</string>
+    <string name="no_string">No</string>
+    <string name="yes_string">Yes</string>
+    <string name="done_string">Done</string>
+
+</resources>

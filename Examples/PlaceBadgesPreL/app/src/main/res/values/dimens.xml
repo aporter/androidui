@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="place_badge_flag_height">120dp</dimen>
+    <dimen name="place_badge_flag_width">160dp</dimen>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_layout_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/image_padding"
+    android:background="@drawable/list_background">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:layout_marginRight="@dimen/image_margin"
+        android:src="@drawable/fire_eye_alien"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/eyeball_string"
+        android:tint="@color/shim_pink" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?android:textColorPrimary"
+        android:text="@string/toast_string"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/image"
+        android:textAppearance="@android:style/TextAppearance.Material.DialogWindowTitle" />
+</RelativeLayout>

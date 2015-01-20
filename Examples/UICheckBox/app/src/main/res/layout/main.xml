@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/im_not_checked"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:layout_margin="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hide_checkbox"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="?android:textColorSecondary"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:layout_margin="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/checkbox">
+    </Button>
+
+</RelativeLayout>

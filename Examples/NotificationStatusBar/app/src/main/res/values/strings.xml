@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NotificationStatusBar</string>
+    <string name="notify_string">Send Notification</string>
+    <string name="intent_received_string">Returned to notifying application</string>
+
+</resources>

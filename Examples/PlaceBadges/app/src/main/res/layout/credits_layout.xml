@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/credits_width"
+    android:layout_height="@dimen/credits_height"
+    android:background="?android:colorPrimary"
+    android:padding="@dimen/base_padding">
+
+    <TextView
+        android:id="@+id/credits_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="@dimen/base_padding"
+        android:paddingRight="@dimen/base_padding"
+        android:text="@string/credits_string"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="?android:textColorPrimary"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/detailed_credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/credits_title"
+        android:padding="@dimen/base_padding"
+        android:text="@string/detailed_credits_string"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="?android:textColorPrimary" />
+
+    <Button
+        android:id="@+id/done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingLeft="@dimen/base_padding"
+        android:paddingRight="@dimen/base_padding"
+        android:text="@string/done_string"
+        android:textAppearance="?android:textAppearanceButton"
+        android:textColor="?android:textColorPrimary"
+        android:layout_below="@+id/detailed_credits"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

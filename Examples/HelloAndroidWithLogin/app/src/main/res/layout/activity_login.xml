@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_padding"
+    android:paddingRight="@dimen/activity_horizontal_padding"
+    android:paddingTop="@dimen/login_padding"
+    android:paddingBottom="@dimen/login_padding"
+    tools:context="course.examples.helloandroidwithlogin.LoginActivity">
+
+    <ImageView
+        android:id="@+id/android"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:background="@drawable/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/login_image_padding"
+        android:contentDescription="@string/image_desc_string" />
+
+    <EditText
+        android:id="@+id/enter_username"
+        android:hint="@string/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textWebEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:nextFocusDown="@+id/enter_password"
+        android:nextFocusRight="@+id/enter_password"
+        android:layout_below="@+id/android" />
+
+    <EditText
+        android:id="@+id/enter_password"
+        android:hint="@string/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@+id/enter_username"
+        android:layout_centerHorizontal="true"
+        android:imeOptions="actionDone"
+        android:nextFocusUp="@id/enter_username"
+        android:nextFocusRight="@id/enter_username" />
+</RelativeLayout>

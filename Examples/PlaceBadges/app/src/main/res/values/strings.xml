@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PlaceBadges</string>
+    <string name="delete_all">Delete All</string>
+    <string name="delete_all_dialog_string">Delete all PlaceBadges?</string>
+    <string name="confirm_warning">This operation cannot be undone.</string>
+    <string name="no_string">No</string>
+    <string name="yes_string">Yes</string>
+    <string name="duplicate_place_string">You already have this location badge</string>
+    <string name="no_location_data_string">Location data is not available</string>
+    <string name="credits_string">Photo Credits</string>
+    <string name="detailed_credits_string">iphwin\nhttps://www.flickr.com/photos/\n36692613@N00/5418579238/\nvia http://compfight.com"</string>
+    <string name="done_string">Done</string>
+    <string name="delete_icon_desc_string">delete icon</string>
+    <string name="floating_action_button_desc_string">Floating Action Button</string>
+    <string name="flag_image_desc_string">flag image</string>
+    <string name="detail_flag_image_desc_string">Detailed Flag Image</string>
+</resources>

@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    tools:context="course.examples.modernartui.MainActivity"
+    tools:ignore="NestedWeights" >
+
+    <SeekBar
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:id="@+id/container_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/slider"
+        android:layout_gravity="fill"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/left_side"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/left_one"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:contentDescription="@string/indigo_rectangle"
+                android:paddingBottom="@dimen/view_thin_horizontal_padding"
+                android:paddingRight="@dimen/view_vertical_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/indigo_bg" />
+
+            <ImageView
+                android:id="@+id/left_two"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:contentDescription="@string/white_rectangle"
+                android:paddingBottom="@dimen/view_thick_horizontal_padding"
+                android:paddingRight="@dimen/view_vertical_padding"
+                android:paddingTop="@dimen/view_thin_horizontal_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/pink_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/right_side"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/right_one"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/white_rectangle"
+                android:paddingBottom="@dimen/view_thin_horizontal_padding"
+                android:paddingLeft="@dimen/view_vertical_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/red_bg" />
+
+            <ImageView
+                android:id="@+id/right_two"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/pink_rectangle"
+                android:paddingBottom="@dimen/view_thin_horizontal_padding"
+                android:paddingLeft="@dimen/view_vertical_padding"
+                android:paddingTop="@dimen/view_thin_horizontal_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/white_bg" />
+
+            <ImageView
+                android:id="@+id/right_three"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/white_rectangle"
+                android:paddingLeft="@dimen/view_vertical_padding"
+                android:paddingTop="@dimen/view_thin_horizontal_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/blue_bg" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

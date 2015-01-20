@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UICheckBox</string>
+    <string name="im_checked">I\'m checked</string>
+    <string name="im_not_checked">I\'m not checked</string>
+    <string name="unhide_checkbox">Unhide CheckBox</string>
+    <string name="hide_checkbox">Hide CheckBox</string>
+</resources>

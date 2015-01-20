@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_padding">64dp</dimen>
+    <dimen name="activity_vertical_padding">32dp</dimen>
+    <dimen name="image_width">200dp</dimen>
+    <dimen name="image_height">200dp</dimen>
+    <dimen name="basic_padding">32dp</dimen>
+    <dimen name="login_padding">16dp</dimen>
+    <dimen name="login_image_padding">32dp</dimen>
+</resources>

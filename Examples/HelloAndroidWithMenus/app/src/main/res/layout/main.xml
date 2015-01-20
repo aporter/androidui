@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/image_padding_vertical"
+    android:paddingBottom="@dimen/image_padding_horizontal"
+    tools:context=".HelloAndroidWithImageViewActivity">
+
+    <ImageView
+        android:id="@+id/android"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_height"
+        android:background="@drawable/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/image_padding"
+        android:rotation="45"
+        android:contentDescription="@string/android_image_desc_string" />
+
+    <TextView
+        android:id="@+id/hello_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/android"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@android:style/TextAppearance.Material.Display2"
+        android:textColor="?android:textColorSecondary"
+        android:text="@string/hello_world"
+        android:shadowRadius="16.0"
+        android:shadowDx="12.0"
+        android:shadowDy="32.0"
+        android:shadowColor="@android:color/darker_gray" />
+
+</RelativeLayout>

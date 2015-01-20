@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="basic_margin">8dp</dimen>
+    <dimen name="color_name_height">64dp</dimen>
+    <dimen name="color_name_padding">16dp</dimen>
+    <dimen name="color_block_height">64dp</dimen>
+
+</resources>

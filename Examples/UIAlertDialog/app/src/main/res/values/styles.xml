@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimary">@color/indigo</item>
+        <item name="android:colorAccent">@color/pink</item>
+        <item name="android:colorPrimaryDark">@color/dark_indigo</item>
+
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@color/black_text_87</item>
+        <item name="android:textColorTertiary">@color/black_text_54</item>
+        <item name="android:windowBackground">@color/light_indigo</item>
+
+        <item name="android:actionOverflowMenuStyle">@style/MyPopupMenu</item>
+
+    </style>
+
+
+    <style name="MyPopupMenu" parent="android:style/Widget.Material.Light.PopupMenu.Overflow">
+        <item name="android:popupBackground">?android:colorPrimaryDark</item>
+    </style>
+</resources>

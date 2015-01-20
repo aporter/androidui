@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sign"
+    tools:context=".PlaceViewActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/badge_view_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PlaceViewActivity" />
+
+    <ImageButton
+        android:id="@+id/add_button"
+        android:layout_width="@dimen/add_button_diameter"
+        android:layout_height="@dimen/add_button_diameter"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ripple"
+        android:elevation="@dimen/add_button_elevation"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:src="@android:drawable/ic_input_add"
+        android:stateListAnimator="@anim/fab_button_anim"
+        android:tint="?android:textColorPrimary"
+        android:contentDescription="@string/floating_action_button_desc_string" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/raise_pitch"
+        android:title="@string/raise_pitch"/>
+    <item
+        android:id="@+id/lower_pitch"
+        android:title="@string/lower_pitch"/>
+
+</menu>

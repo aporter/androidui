@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/semi_transparent_indigo" >
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            style="@style/AppTheme"
+            android:layout_width="@dimen/popup_width"
+            android:layout_height="@dimen/popup_height"
+            android:gravity="center"
+            android:paddingTop="@dimen/view_thick_horizontal_padding"
+            android:text="@string/mondrian_more_info" >
+        </TextView>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/visit_moma_button"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/visit_moma_string" />
+
+        <Button
+            android:id="@+id/dismiss_button"
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="@string/not_now_string" />
+    </LinearLayout>
+
+</RelativeLayout>

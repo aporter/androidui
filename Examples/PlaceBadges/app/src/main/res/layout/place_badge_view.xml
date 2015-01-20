@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detail_view_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/half_base_padding"
+    android:alpha="0.9"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/flag_image"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/badge_card_height"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:elevation="4dp"
+            android:scaleType="fitXY"
+            android:transitionName="flag_image"
+            android:contentDescription="@string/flag_image_desc_string" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="8dp"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/place_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/black_text_87" />
+
+            <TextView
+                android:id="@+id/country_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/place_name"
+                android:layout_toRightOf="@id/place_name"
+                android:paddingLeft="@dimen/half_base_padding"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/black_text_87" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

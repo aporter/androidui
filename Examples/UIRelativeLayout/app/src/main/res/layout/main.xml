@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/basic_margin">
+
+    <!-- Note the use of android:hint to put explanatory text in the EditText  -->
+    <EditText
+        android:id="@+id/entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_here_string"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="?android:textColorSecondary" />
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/entry"
+        android:layout_marginLeft="@dimen/basic_margin"
+        android:text="@string/ok_string"
+        android:background="?android:attr/selectableItemBackground"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="?android:textColorSecondary" />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ok_button"
+        android:layout_toLeftOf="@id/ok_button"
+        android:text="@string/cancel_string"
+        android:background="?android:attr/selectableItemBackground"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textColor="?android:textColorSecondary" />
+
+</RelativeLayout>

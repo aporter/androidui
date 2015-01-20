@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Piano</string>
+    <string name="indigo_rectangle">indigo rectangle</string>
+    <string name="white_rectangle">white rectangle</string>
+    <string name="pink_rectangle">pink rectangle</string>
+    <string name="raise_pitch">Raise Pitch</string>
+    <string name="lower_pitch">Lower Pitch</string>
+
+</resources>

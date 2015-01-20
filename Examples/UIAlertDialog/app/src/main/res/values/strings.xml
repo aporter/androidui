@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UIAlertDialog</string>
+    <string name="shutdown_string">ShutDown</string>
+    <string name="exit_confirm_string">Do you really want to exit?</string>
+</resources>

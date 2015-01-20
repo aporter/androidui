@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloAndroidWithLogin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="password">Enter Password</string>
+    <string name="username">Enter User Name</string>
+    <string name="image_desc_string">Android Image</string>
+
+</resources>

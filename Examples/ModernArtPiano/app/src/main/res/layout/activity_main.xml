@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="course.examples.modernartpiano.MainActivity"
+    tools:ignore="NestedWeights">
+
+    <SeekBar
+        android:id="@+id/volume_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/volume_bar"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/left_side"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/indigo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@null"
+                android:contentDescription="@string/indigo_rectangle"
+                android:paddingBottom="@dimen/view_thin_horizontal_padding"
+                android:paddingRight="@dimen/view_vertical_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/indigo_bg" />
+
+            <ImageButton
+                android:id="@+id/white2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:background="@null"
+                android:contentDescription="@string/white_rectangle"
+                android:paddingBottom="@dimen/view_thick_horizontal_padding"
+                android:paddingRight="@dimen/view_vertical_padding"
+                android:paddingTop="@dimen/view_thin_horizontal_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/white_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/right_side"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/white1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@null"
+                android:contentDescription="@string/white_rectangle"
+                android:paddingBottom="@dimen/view_thin_horizontal_padding"
+                android:paddingLeft="@dimen/view_vertical_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/white_bg" />
+
+            <ImageButton
+                android:id="@+id/pink"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@null"
+                android:contentDescription="@string/pink_rectangle"
+                android:paddingBottom="@dimen/view_thin_horizontal_padding"
+                android:paddingLeft="@dimen/view_vertical_padding"
+                android:paddingTop="@dimen/view_thin_horizontal_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/pink_bg" />
+
+            <ImageButton
+                android:id="@+id/white3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:background="@null"
+                android:contentDescription="@string/white_rectangle"
+                android:paddingLeft="@dimen/view_vertical_padding"
+                android:paddingTop="@dimen/view_thin_horizontal_padding"
+                android:scaleType="fitXY"
+                android:src="@drawable/white_bg" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

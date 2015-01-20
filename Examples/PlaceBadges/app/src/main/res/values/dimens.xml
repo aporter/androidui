@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="badge_card_height">64dp</dimen>
+    <dimen name="add_button_diameter">56dp</dimen>
+    <dimen name="add_button_elevation">1dp</dimen>
+    <dimen name="add_button_press_elevation">5dp</dimen>
+    <dimen name="base_padding">8dp</dimen>
+    <dimen name="credits_width">350dp</dimen>
+    <dimen name="credits_height">200dp</dimen>
+    <dimen name="delete_confirm_width">300dp</dimen>
+    <dimen name="delete_confirm_height">180dp</dimen>
+    <dimen name="delete_icon_width">32dp</dimen>
+    <dimen name="delete_icon_height">32dp</dimen>
+    <dimen name="half_base_padding">4dp</dimen>
+
+</resources>
