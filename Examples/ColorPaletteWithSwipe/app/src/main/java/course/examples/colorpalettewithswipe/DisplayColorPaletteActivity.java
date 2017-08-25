@@ -11,16 +11,6 @@ import android.support.v4.view.ViewPager;
 
 public class DisplayColorPaletteActivity extends Activity {
 
-    /**
-     * Provides a fragment for each color palette.
-     */
-    private SectionsPagerAdapter mSectionsPagerAdapter;
-
-    /**
-     * The ViewPager hosting the color palettes.
-     */
-    private ViewPager mViewPager;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,10 +19,16 @@ public class DisplayColorPaletteActivity extends Activity {
 
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
-        mSectionsPagerAdapter = new SectionsPagerAdapter(getFragmentManager());
+        /*
+      Provides a fragment for each color palette.
+     */
+        SectionsPagerAdapter mSectionsPagerAdapter = new SectionsPagerAdapter(getFragmentManager());
 
         // Set up the ViewPager with the sections adapter.
-        mViewPager = (ViewPager) findViewById(R.id.pager);
+        /*
+      The ViewPager hosting the color palettes.
+     */
+        ViewPager mViewPager = findViewById(R.id.pager);
         mViewPager.setAdapter(mSectionsPagerAdapter);
 
     }
@@ -102,6 +98,13 @@ public class DisplayColorPaletteActivity extends Activity {
             PlaceholderFragment fragment = new PlaceholderFragment();
             fragment.mResourceID = resourceID;
             return fragment;
+        }
+
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+
+            setRetainInstance(true);
         }
 
         /**

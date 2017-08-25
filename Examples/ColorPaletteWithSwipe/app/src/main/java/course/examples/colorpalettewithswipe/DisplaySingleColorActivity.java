@@ -10,7 +10,7 @@ public class DisplaySingleColorActivity extends Activity {
 
         setContentView(R.layout.single_color_layout);
 
-        /**
+        /*
          * Set the background to the selected color
          */
         findViewById(R.id.color_block).setBackgroundColor(

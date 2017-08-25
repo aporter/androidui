@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/MaterialTheme" >
         <activity
             android:name="course.examples.colorpalettewithswipe.DisplayColorPaletteActivity"
             android:label="@string/app_name" >
